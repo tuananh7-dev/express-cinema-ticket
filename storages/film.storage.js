@@ -219,6 +219,8 @@ module.exports = [
         ],
         desc: "I'm meant to be writing at this moment. What I mean is, I'm meant to be writing something else at this moment. The document I'm meant to be writing is, of course, open in another program on my computer and is patiently awaiting my attention. Yet here I am plonking down senseless sentiments in this paragraph because it's easier to do than to work on anything particularly meaningful. I am grateful for the distraction.The use of blockchain technology in sustainable supply chain management is another exciting development. Blockchain can be used to create more transparent and traceable supply chains, reducing the environmental and social impact of production and consumption.",
         isReleased: 1,
+        banner: "https://static.vieon.vn/vieplay-image/thumbnail_v4/2021/01/05/yhgfv9rx_3_horizontal-thumbnail497e02c9173f787bd4d50b54e8d18690.jpg",
+        showBanner: 1,
     },
     {
         id: 70158329,
@@ -243,8 +245,6 @@ module.exports = [
         ],
         desc: "Leadership is the ability to inspire and guide others towards a common goal, and it is essential to creating positive change in the world. Whether it's in a formal leadership position or in everyday life, leadership requires vision, courage, and the ability to bring people together.Another important application of technology in nature is through the use of virtual reality. Virtual reality can be used to simulate natural environments and help people connect with nature. This technology has the potential to promote environmental education and encourage more sustainable behaviors.",
         isReleased: 1,
-        banner: "https://static.vieon.vn/vieplay-image/thumbnail_v4/2021/01/05/yhgfv9rx_3_horizontal-thumbnail497e02c9173f787bd4d50b54e8d18690.jpg",
-        showBanner: 1,
     },
     {
         id: 81731697,
