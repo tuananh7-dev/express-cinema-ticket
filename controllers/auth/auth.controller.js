@@ -80,7 +80,17 @@ async function login(req, res) {
     return res.json({ message: "Đăng nhập thành công", data: result });
 }
 
+function getMe(req, res) {
+    const userId = req.payload.data.id;
+    const account = accounts.find((account) => account.id == userId);
+    const data = { ...account };
+    delete data.password;
+    return res.json({ message: "Đăng nhập thành công", data });
+}
+
 module.exports = {
     register,
     login,
+    secretKey,
+    getMe,
 };
