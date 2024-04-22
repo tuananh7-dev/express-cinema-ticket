@@ -1,4 +1,7 @@
 const showTimeStorage = require("../../storages/show-time.storage");
+const accountStorage = require("../../storages/account.storage");
+const filmStorage = require("../../storages/film.storage");
+const roomStorage = require("../../storages/room.storage");
 const { randomString } = require("../../helpers/random.helper");
 
 async function genQRCode(req, res) {
@@ -55,6 +58,22 @@ async function genQRCode(req, res) {
         id: bookedSeatId,
         user_id: userId,
         seats: seatIds,
+    });
+
+    // Them vao account
+    const film = filmStorage.find((film) => film.id == showTime.filmId);
+    const user = accountStorage.find((account) => account.id == userId);
+    const room = roomStorage.find((room) => room.id == showTime.roomId);
+    user.tickets.push({
+        filmName: film.name,
+        thumbnail: film.thumbnail,
+        during: film.during,
+        date: showTime.date,
+        time: time.time,
+        seats: seatIds,
+        code: addInfo,
+        room: room.name,
+        totalPrice: amount,
     });
     const data = [
         {
