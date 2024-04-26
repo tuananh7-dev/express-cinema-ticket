@@ -23,7 +23,7 @@ module.exports = [
         isReleased: 1,
     },
     {
-        id: 81024821,
+        id: 81024822,
         name: "Bài toán 3 vật thể",
         thumbnail:
             "https://occ-0-395-325.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABfwDBgVBaUoo0fqsJ372L0y-Lo17wKay0QZHC5L5iQjY2VJz2WJzJMyMWwzP0ZaQ8ASAAMcgnZd0el6HkWLNT059zp0hgiMZatJfsDLoZdyGxIF_F-So56wabArohkmAv5dlqqUjqpvj9lUqn2WSDHN18ZMT8sLgmSZn0pSRS7zsLtq-DuXP0Q32yF_ZbQnnumksYRRkyNemkzesOyKfQ2Z9tGkUvOyS9ul4B5SqNI-fjaYtMIdry3VLQIoFMHiK9YDj2GtByOasMdDUuDMGPFPJEV6uVINUpetccbLAMkMYvmUO9thRH_kW8WhmQneOkmEL4ouurrSkIWQ5ZeJ1nOIQWpK1jASu_ksVF2wgN-6yLIk.jpg?r=7a1",
